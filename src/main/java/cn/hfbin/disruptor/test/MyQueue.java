@@ -108,7 +108,7 @@ public class MyQueue {
             public void run() {
                 //取走第一个
                 Object o1 = mq.take();
-                System.out.println("移除的元素为:" + o1);
+                System.out.println("移除的元素为 :" + o1);
                 Object o2 = mq.take();
                 System.out.println("移除的元素为:" + o2);
             }
